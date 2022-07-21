@@ -11,7 +11,6 @@ body{
     margin: 0;
 }
 .container{
-    /* width: 80%; */
     width: 80%;
     margin-bottom: 100px;
 }
@@ -227,9 +226,7 @@ main{
 }
 
 /* transfer content start*/
-.transfer-content{
-    grid-column: 2 / -1;
-}
+
 .transfer-content-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -265,17 +262,15 @@ main{
     border: 1px solid grey;
 }
 
+.time{
+  margin-right: 20px;
+}
+
 .comments-time{
     display: flex;
     padding: 10px;
 }
 
-.time{
-    margin-right: 20px;
-}
-.fa-message-dots{
-    color: #B9B9B9;
-}
 
 .view-all-button{
     text-decoration: none;
@@ -347,7 +342,6 @@ footer{
 }
 .fa-linkedin{
     color: #0072b1;
-
 }
 
 
@@ -381,9 +375,6 @@ media queries
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    .related-button{
-        margin: 10px;
     }
     
     .content-area{
