@@ -373,7 +373,7 @@ media queries
         flex-direction: column;
         margin-bottom: 50px;
         margin-left: 90px;
-        background-color: #FFFFFF;
+        background-color: #f3fcf6;
 
     }
     .related-link{
@@ -418,7 +418,7 @@ media queries
     flex-direction: column;
 }
 .realted-box{
-    background-color: #FFFFFF;
+    background-color: #f3fcf6;
 }
 .related-link{
     display: flex;
