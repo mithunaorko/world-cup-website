@@ -352,48 +352,45 @@ media queries
 /* mobile devices */
 
 @media only screen and (max-width: 687px) {
-    .container{
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    .banner{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .banner-content{
-        text-align: center;
+.container{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.banner{
+    grid-template-columns: repeat(1, 1fr);
+}
+.banner-content{
+    text-align: center;
+    margin-left: 0;
         
-    }
-    .realted-box{
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 50px;
-        margin-left: 90px;
-        background-color: #f3fcf6;
-
-    }
-    .related-link{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .content-area{
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-    .transfer-content-area{
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-.view-all{
-  visibility: hidden;
 }
 
-    .footer-nav{
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-    }
+.realted-box{
+    display: grid;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0;
+    background-color: #f3fcf6;
+}   
+.content-area{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+}
+.transfer-content-area{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+}
+.view-all{
+    visibility: hidden;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 
 }
 
@@ -411,14 +408,18 @@ media queries
 }
 .realted-box{
     background-color: #f3fcf6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80px;
+    padding: 0;
 }
 .related-link{
     display: flex;
-    margin-left: 60px;
+    grid-row-gap: 0px;
 }
 .related-button{
-    margin: 4px auto;
-
+    margin: 4px;
+    padding: 8px;
 }
 
 .transfer-content-area{
